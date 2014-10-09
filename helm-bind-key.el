@@ -6,7 +6,7 @@
 ;; Version: 0.1
 ;; Package-version: 0.1
 ;; Package-Requires: ((bind-key "1.0") (helm "1.6.4"))
-;; Created: 2014-10-08 
+;; Created: 2014-10-08
 ;; Keywords: convenience, emulation
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -25,7 +25,7 @@
 ;; Boston, MA 02110-1301, USA.
 
 ;;; Commentary:
-;; 
+;;
 ;; It is necessary to Some Helm and bind-key.el Configurations.
 ;;
 
@@ -39,7 +39,7 @@
 
 ;;; Changelog:
 ;;  2014/10/08  Initial release
-             
+
 
 ;;; Command:
 ;;  `helm-bind-key'
@@ -48,8 +48,8 @@
 ;;; Code:
 (defun hbk-create-sources ()
   "[internal] create an helm source for bind-key."
-  (let (heads 
-        cur-title 
+  (let (heads
+        cur-title
         cur-records
         last-binding)
     (dolist (binding
