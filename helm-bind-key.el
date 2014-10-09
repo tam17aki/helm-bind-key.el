@@ -46,6 +46,10 @@
 
 
 ;;; Code:
+
+(require 'helm)
+(require 'bind-key)
+
 (defun hbk-create-sources ()
   "[internal] create an helm source for bind-key."
   (let (heads
