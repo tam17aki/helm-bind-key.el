@@ -31,7 +31,7 @@
 
 ;;; Installation:
 ;;
-;; Put the helm-bin-key.el to your
+;; Put the helm-bind-key.el to your
 ;; load-path.
 ;; Add to .emacs:
 ;; (require 'helm-bind-key)
@@ -40,10 +40,8 @@
 ;;; Changelog:
 ;;  2014/10/08  Initial release
 
-
 ;;; Command:
 ;;  `helm-bind-key'
-
 
 ;;; Code:
 
